@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17336" start="node1" appversion="6.0.6">
+  <panorama id="node1">
+    <input width="500" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" height="500" overlap="1" levelingroll="0" levelbias="0.400">
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-8.62405" fov="70" pan="-12.0872" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fov="120" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270"/>
+    </view>
+    <userdata longitude="" title="previa" customnodeid="" info="" description="vista dos camaras" author="iooo" tags="Pano2VR.6.0.6.win64" datetime="hoh a esta hora" copyright="copyright" source="de trevi" latitude="" comment=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label borderalpha="1" width="180" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" border="1" background="1" bordercolor="0x000000" wordwrap="1" borderradius="1" enabled="1" textcolor="0x000000" height="20"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="2"/>
+      <polyhotspot title="Bocha grande" target="" url="{node2}" description="desde aca se ve la bocha chica" id="Poly01">
+        <polystring>-7.96/-8.51|-10.65/-7.29|-13.88/-6.75|-18.36/-8.31|-20.54/-11.08|-21.73/-16.1|-20.2/-19.93|-17.49/-22.4|-13.21/-23.16|-8.73/-21.95|-5.46/-18.63|-5/-13.93|-5.77/-10.96|-5.96/-10.61</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomfov="20" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomin="0" zoomoutpause="1" softedge="0"/>
+    <soundstransition enabled="1" transitiontime="2" crossfade="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control speedwheel="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" hideabout="0" invertcontrol="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="500" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" height="500" overlap="1" levelingroll="0" levelbias="0.400">
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-4.83415" fov="70" pan="132.756" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fov="120" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270"/>
+    </view>
+    <userdata longitude="" title="" customnodeid="" info="" description="" author="" tags="Pano2VR.6.0.6.win64" datetime="" copyright="" source="" latitude="" comment=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label borderalpha="1" width="180" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" border="1" background="1" bordercolor="0x000000" wordwrap="1" borderradius="1" enabled="1" textcolor="0x000000" height="20"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="2"/>
+      <hotspot tilt="-12.39" skinid="ht_node" title="bocha chica" target="" url="{node1}" pan="-218.13" description="desde aca se ve la bocha grande" id="Point01"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomfov="20" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomin="0" zoomoutpause="1" softedge="0"/>
+    <soundstransition enabled="1" transitiontime="2" crossfade="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control speedwheel="1" simulatemass="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextprojections="0" hideabout="0" invertcontrol="1" sensitivity="8"/>
+  </panorama>
+  <masternode>
+    <userdata longitude="" title="" customnodeid="" info="" description="" author="" tags="" datetime="" copyright="" source="" latitude="" comment=""/>
+  </masternode>
+</tour>
